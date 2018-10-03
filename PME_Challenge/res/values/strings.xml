@@ -1,0 +1,36 @@
+<resources>
+    <!-- List of string ressources -->
+    <string name="app_name">GithubInfoActivity</string>
+    <string name="Mon">Mon</string>
+    <string name="Tue">Tue</string>
+    <string name="Wed">Wed</string>
+    <string name="Thu">Thu</string>
+    <string name="Fri">Fri</string>
+    <string name="ShowSchedule">Show Schedule</string>
+    <string name="ShowLocation">Show Location</string>
+    <string name="ContactAdmin">Contact Administration</string>
+    <string name="Sender">Sender</string>
+    <string name="Subject">Subject</string>
+    <string name="Msg">Your Message</string>
+    <string name="SendMail">Send Mail</string>
+    <string name="AarhusInfo">Aarhus Universitet Info App</string>
+    <string name="Schedule">Schedule</string>
+    <string name="Contact">Contact</string>
+
+    <!-- String array for days -->
+    <string-array name="days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+
+    <!-- String array for courses -->
+    <string-array name="courses">
+        <item>PME</item>
+        <item>BDA</item>
+        <item>IOT</item>
+        <item>ASU</item>
+    </string-array>
+</resources>
