@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dk.pme.kim.githubinfoactivity">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/KimTheme">
+
+        <!-- Main activity: -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/AarhusInfo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Show Schedule activity: -->
+        <activity
+            android:name=".ScheduleActivity"
+            android:label="@string/Schedule"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
+        <!-- Contact Admin activity: -->
+        <activity
+            android:name=".ContactActivity"
+            android:label="@string/Contact"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
+    </application>
+
+</manifest>
