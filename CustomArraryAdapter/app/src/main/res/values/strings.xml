@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">CustomArraryAdapter</string>
+
+    <string-array name="Animals">
+        <item>Lion</item>
+        <item>Tiger</item>
+        <item>Harambe</item>
+        <item>Elephant</item>
+        <item>Dog</item>
+        <item>Cat</item>
+    </string-array>
+
+</resources>

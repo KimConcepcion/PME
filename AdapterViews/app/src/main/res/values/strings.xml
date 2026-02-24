@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AdapterViews</string>
+    <string-array name="series">
+        <item>Mr. Robot</item>
+        <item>Game of Thrones</item>
+        <item>Sons of Anarchy</item>
+        <item>Mayans</item>
+        <item>Kriger</item>
+    </string-array>
+</resources>
